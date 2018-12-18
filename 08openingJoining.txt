@@ -1,0 +1,39 @@
+08. Inserting, opening and joining lines: o, O, J
+---------------
+
+Let's say you want to append some code beneath a line. 
+
+To do this, we had to go to our line, then press "A" and ENTER.
+
+Thankfully, vim makes this process much easier with the "o" key. 
+Think of "o" as in open.
+
+To add a line, use:
+o - open a line below
+O - open a line above 
+
+Let's add some comments to this python function:
+
+def sumAndSquare(a, b):
+#comment here
+  sum = a+b
+	# another comment here
+  return sum ** 2
+
+We can also join lines together.
+J - join current line with the one below
+
+Turn this block of text into one line!
+
+Review Questions:
+1) Insert a period at the end of this line
+2) Insert a "please" in front of the following sentences:
+  give me a cookie.
+  don't text and drive.
+ 
+
+
+
+Solutions:
+1) A.
+2) on each line, type "IPlease"  

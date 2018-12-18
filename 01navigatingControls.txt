@@ -1,0 +1,51 @@
+01. Navigating controls: h, j, k, l, ESC, [0-9]
+---------------
+
+Hello!
+
+Vim is a "modal editor," meaning it has different modes. 
+
+Vim opens in COMMAND mode. 
+If you ever find Vim in a different mode (or if it's acting wonky), 
+simply press ESC to re-activate COMMAND mode. 
+
+Great! We'll start with basic navigation. 
+
+To move around in Vim:
+l - move right
+h - move left
+j - move down
+k - move up
+
+Time to practice!
+go right (l) go left (h)
+move down (j)
+let's move back up (k)
+
+Stray away from the [[arrow keys]]!
+
+  Yay, we are learning
+how to navigate with Vim
+  This is so much fun!
+
+We can make this more efficient using a numerical modifier.
+Simply precede the command with an value [0-9].
+For example, 4h moves 4 characters to the left.
+
+Quit by typing ":q!"
+
+The ":" activates ex commands, which we will cover in more advanced tutorials.
+The "q" means to quit.
+The "!" means to quit without any unsaved changes.
+
+Review Questions:
+1) Why are we learning Vim?
+
+
+
+
+
+Solutions:
+1) It's faster, lightweight and available on almost every computer.
+
+

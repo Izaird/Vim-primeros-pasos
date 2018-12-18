@@ -1,0 +1,46 @@
+13. Copying and pasting: y, Y
+---------------
+
+Now we can learn a very useful command that we use every day - copying and pasting.
+In vimland, "copying" is refered to as "yanking."
+
+We can use the "y" key, along with several variations of it to yank text:
+y - yank (or copy)
+    yy current line
+    5yy this line, and 4 more under it
+    yw to the end of this word
+    y$ to the end of the line
+    y^ to the first non-white space
+    ygg to the beginning of the file
+    yG to the end of file
+    y20G yanks to the 20th line of the file
+Y - yank entire line
+
+Remember that p or P is used to paste!
+
+These are just a fraction of the various ways to yank text. 
+Can you think of how you would yank from HERE to the beginning of this sentence?
+
+Review Questions:
+1) If you delete something using "d", is it gone forever?
+2) How would you cut and paste a character?
+
+These are just a fraction of the various ways to yank text. 
+Can you think of how you would yank from HERE to the beginning of this sentence?
+
+Review Questions:
+1) If you delete something using "d", is it gone forever?
+2) How would you cut and paste a character?
+These are just a fraction of the various ways to yank text. 
+Can you think of how you would yank from HERE to the beginning of this sentence?
+
+Review Questions:
+1) If you delete something using "d", is it gone forever?
+2) How would you cut and paste a character?
+
+
+
+
+Solutions:
+1) No, it is copied to the clipboard. Paste it somewhere using "p".
+2) Use "x" to delete it, and "p" to paste it".

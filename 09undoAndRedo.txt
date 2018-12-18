@@ -1,0 +1,25 @@
+09. Undo and redo: u, U, ctrl+r
+---------------
+
+Let's learn how to undo and redo our editing before we move on. 
+
+We can undo with the following commands: 
+u - undo the latest change
+    3u undoes the last 3 changes
+U - undo an entire line
+
+We can use a "redo" key to redo the undo:
+ctrl+r - redo
+
+Review Questions:
+1) Insert a #2 review question below. 
+4) Now insert a #4 review question above. 
+
+
+
+
+
+Solutions:
+1) "o"
+2) "O"
+

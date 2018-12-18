@@ -1,0 +1,42 @@
+02. Navigating words: web, WEB
+---------------
+
+We can navigate through words in a line:
+w - navigate to the beginning of the next word
+W - same as w, beginning of the next WORD - ignoring punctuations
+
+What's the difference between a word and WORD?
+1-800-555-1234
+My sister's boyfriend's mother.
+
+// Now with some simple java code
+for (int i = 0; i < 10; i++) {
+    System.out.println("I love vim's navigation tools.");
+}
+
+e - navigate to the last letter of the next word
+E - same as e, ignoring punctuations
+
+# now navigate through a simply Python function
+def square(x):
+    return x ** 2
+
+b - navigate back to the beginning of a word
+B - same as b, ignoring punctuations 
+
+<!-- HTML for web developers ;) -->
+<p>Hello I am a block paragraph. <b>Don't mess with me</b>.</p>
+
+Review Questions:
+1) How do you activate COMMAND mode?
+2) How many words is 192.168.1.1? How many WORDs is it?
+3) How would you move to the fourth word forward? How about third WORD back?
+
+
+
+
+
+Answers:
+1) ESC for command mode.
+2) 7 words, 1 WORD.
+3) 4w, 3B.

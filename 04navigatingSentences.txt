@@ -1,0 +1,87 @@
+04. Navigating sentences and paragraphs: {, } (braces), (, ) (parantheses)
+---------------
+
+Now we can navigate through long paragraphs,
+or big blocks of code!
+
+Use these keys to wade through sentences in a paragraph:
+( - start of sentence
+) - end of sentence
+
+This is a sample sentence. This is another sample sentence. Does a question mark complete the a sentence? How about an exclamation point? Yes! Yes they all do! Isn't this so exciting? Yes. Yes it is. 
+
+To find the end of a sentence, Vim looks for "?", ".", or "!".
+
+Use these keys to navigate through paragraphs:
+{ - start of paragraph
+} - end of paragraph 
+
+Vim considers a paragraph as a block of text surrounded with blank lines.
+Like this, for example.
+Ch-ch-check it out!
+
+/**
+ * A class that demonstrates the usefulness of vim
+ * keyboard shortcuts. Simply navigate this class
+ * file using the { and } keys.
+ * 
+ * @author CodeSnippetsAcademy
+ * @version 1.0, December 11, 2014
+ *
+ */
+public class Car {
+
+  public String color;    // color of our car
+  public int speed;       // How fast our car is moving (mph)
+
+  /** Parameterized constructor
+   * @param aColor - the color of a car
+   * @param aSpeed - the speed of the car
+   */
+  public Car(String aColor, int aSpeed) {
+    color = aColor;
+    speed = aSpeed;
+  }
+
+  /** Default constructor
+   */
+  public Car() {
+    color = "blue";
+    speed = "50";
+
+  /** set the color of the car
+   */
+  public void setColor(String newColor) {
+    color = newColor;
+  }
+
+  /** set the speed of the car
+   */
+  public void setSpeed(int newSpeed) {
+    speed = newSpeed;
+  }
+
+  /** apply brakes 
+   */ 
+  public void applyBrake(int decrement) {
+    speed -= decrement;
+  }
+
+  /** speed up
+   */
+  public void speedUp(int increment) {
+    speed += increment;     
+  }
+
+}
+
+Review Questions: 
+1) How would you navigate through lines of code, where there are indentations? 
+2) What's the difference between using "0" and "^"?
+
+
+
+
+Solutions:
+1) You can use "-" and "+" or "-" and "[return]". Using the [return] is more efficient since you don't have to hold the [shift] key.
+2) "0" is to the beginning of the line, while "^" is to the first non-white space of a line. 

@@ -1,0 +1,39 @@
+16. Marking: m, 'x, `x, '', ``
+---------------
+Sometimes it can be helpful to bookmark a specific place within your file.
+Vim allows you to set marks within a file with lowercase letters (a-z).
+
+mark a here
+mark b here
+
+We can mark a location with any given character:
+mx - marks x to a specific location. 
+'x - moves to the bol of the marked x character.
+`x - moves to the x character.
+'' - Returns to the bol of the previous position.
+`` - Returns to the exact position of the previous position.
+
+mark x here
+mark y here
+
+You can also navigate between lowercase marks:
+]' - jump to the bol with a lowercase mark
+[' - jump to previous bol with a lowercase mark
+]` - jump to exact position of the next lowercase mark
+[` - jump to exact position of previous lowercase mark
+
+You can also set global marks with uppercase letters (A-Z).
+Try opening your .vimrc file, which sets the configuration of Vim, and press "mV".
+This will mark that file and position with V.
+Now press "'V" to open!
+
+To list all marks,
+:marks
+
+To delete a line containing a mark,
+:delmarks a - delete mark a
+:delmark a-d - delete marks a,b,c,d
+:delmarks abxy - delete marks a,b,x,y
+:delmarks aA - delete marks a,A
+:delmarks! - delete all lowercase marks (a-z)
+

@@ -1,0 +1,51 @@
+11. Deleting: x, X, d, . (period)
+---------------
+
+So far we've covered, inserting and replacing. 
+Now let's hop on over to the deleting!  
+
+*** Remember to hit "u" to undo a change! ***
+
+There are many ways we can delete text in a file.
+x - delete the character at the cursor
+     3x deletes current character + 2 characters to the right of cursor 
+X - delete character to the left 
+     3x deletes 3 characters to the left of cursor
+
+Try dexletxing axxll txxxxhe "x" chxaraxcters hxere!
+
+We can also delete words or WORDs at a time.
+d - delete something
+    dW deletes to beginning of next WORD
+    dE deletes to end of next WORD 
+    dB deletes to beginning of previous WORD 
+
+Let's try deleting all the words here.
+
+Another nifty tool: 
+. - repeat any command 
+
+I love Justin Bieber!  
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+I love Justin Bieber!
+
+Review Problems:
+1) What's the difference between word and WORD? How many words and WORDs does www.youtube.com have? 
+2) How do you activate REPLACE mode?
+
+
+
+
+
+Solutions:
+1) WORDs ignore punctuations. www.youtube.com has 5 words and 1 WORD.
+2) "R" 

@@ -1,0 +1,27 @@
+19. Buffers (digits): 1-9, " (quotation mark)
+----------------
+As you have seen with cutting/deleting/yanking, when we delete some text it gets saved in the buffer.
+
+To paste the buffer we used the p/P commands - but this is only for the most current deletion.
+
+In fact, the last nine deletions from d or x commands are placed in your buffer. 
+
+To recover a deletion, we use the following command:
+"np - where n is the buffer number, from 1-9.
+
+Try deleting the following lines, then reversing them out.
+
+1. First
+2. Second
+3. Third
+4. Fourth
+5. Fifth
+
+What if we don't know which number corresponds to the buffer?
+We can traverse our buffer with a fancy trick:
+"1pu.u.u.u 
+
+1. First
+Remember that the "." key is used to repeat commands.
+The "u" key is used to undo a command.
+With this combination, we are able to traverse across the list until we find the buffer we're looking for.

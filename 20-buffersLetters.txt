@@ -1,0 +1,30 @@
+20. Buffers (letters): a-z, A-Z, " (quotation mark)
+---------------
+Alright, so to be completely honest, this number business is making my head hurt too.
+
+If we want to pre-define slots for buffers, we can use lowercase letters (a-z) instead.
+This way we have 26 buffer spaces, and retrieving is much more tractable.
+
+Each letter of the alphabet indicates a slot in your buffer.
+
+We can yank lines into buffers:
+"eyy - yanks current line to buffer e
+"a7yy - yanks the next seven lines to buffer a
+
+Now we have two buffers ready to paste!
+"eP - to paste before cursor
+"ap - to paste after cursor
+
+You can do similarly with deletion:
+"fdd - cuts current line, and places into buffer f
+
+Now here's where Vim gets exciting!
+
+To append to a slot in the buffer, use a capital letter.
+Let's say you had some words in slot q that you wanted to append to.
+
+Simply use capital Q:
+"Qyy - appends current line to buffer q
+
+Now try pasting it to see how it appended to a buffer slot!
+"q

@@ -1,0 +1,52 @@
+10. Replacing text: r, R, ~ (tilde), c, C
+---------------
+
+We can use text replacements to edit more efficienctly.
+
+To replace a character, we simply press place our cursor under the character we wish to replace, press "r", then press the new character.
+
+r - replace a selected character with another
+    ra replaces selected character with "a"
+    3ra replaces three characters with "a"
+
+Try replacing the incorrectly spelled character in this sentence.
+Now try replacing four characters in this sentence.
+
+We can also use substitution:
+s - replace a char and add more
+S - change the entire line 
+
+If you want to change the case of a letter, simply press the squiggly ~ (tilde). 
+This is located on the top left corner of your keyboard, below the ESC key.
+
+~ - change the character case
+    3~ changes 3 character's case
+
+every line should start with a capital letter. FBI 
+
+Now remember I told you that vim is a modal editor?
+There's another nift mode called REPLACE. With it, you can write over existing text.
+
+R - activate Replace mode
+
+Press "R" and you replace as you go!
+
+For a quick change, you can use the "c" key
+c - delete and insert
+    cw - delete selected word and insert a new on
+cc - change entire line, same as "S"
+C - change line from where your cursor is
+
+Try changing this line $ from the "$" symbol!
+
+Review Questions:
+1) Insert some random text into this sentence, then undo with one command.  
+2) Redo what you just undid in question 1.
+
+
+
+
+
+Solutions:
+1) "U"
+2) ctrl+r

@@ -1,0 +1,12 @@
+18. Recovery: 
+---------------
+If your system fails, your vim session will be closed abruptly.
+You may think all your changes made after the last save are lost...
+
+However, you can use the option -r to recover the edited buffer at the time of a system crash.
+
+To get a list of all files that have been saved to the buffer:
+$ vim -r
+
+To recover a specific file, simply place the file name as an argument:
+$ vim -r crashtest.txt

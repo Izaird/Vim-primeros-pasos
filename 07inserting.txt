@@ -1,0 +1,46 @@
+07. Inserting and appending: i, a, I, A
+---------------
+
+Remember how Vim is known as a modal editor? 
+This means that its state depends on what "mode" it's in. 
+When vim starts up, it's in command mode.
+Command mode is how you navigate, like we are now! 
+
+Now let's say we want to insert some text. 
+We can change into insert mode using several keys:
+i - before the cursor
+a - after the cursor
+I - at the beginning of the line (first non-white space)
+A - at the end of the line
+
+Now we can start inserting things!
+
+Let's say this is some cool text block,
+and you want to insert an adjective before "text".
+
+*** Remember to hit the ESC key to return to COMMAND mode! ***
+
+// Find the two error in this java code
+x = 0;
+if (x = 0)
+  System.out.println("I love Vim.")
+
+# Or python if you want
+L = ["vim", "is", "so", "!"]
+for n in L
+  rint(n)
+
+BTW or LOLCODE...
+HAI 1.2
+  CAN HAS STDIO?
+  VISIBLE "CAN I LUVS VIM!!!1!"
+KTHXBYE
+
+
+
+
+Solutions:
+Java: Make the "=" in the parenthesis to make "==" and insert a semicolon at the end using "A;"
+Python: add a ":" at the end of the for statement, and a "p" in front of "rint"
+LOLCODE: nothing's wrong with this one -- just wanted to use it as a fun example!
+

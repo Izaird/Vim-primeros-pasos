@@ -1,0 +1,26 @@
+17. Open Options: 
+---------------
+Normally, we would start Vim with the following command:
+$ vim fileName
+
+To open a file at line 12:
+$ vim +12 fileName
+
+To open a file at the last line:
+$ vim + fileName
+
+To open a file at the first occurance of a pattern:
+$ vim +/pattern fileName
+
+This can be helpful, as you can mark a spot in your document and jump right into it. 
+Oftentimes you can write a unique text as your marked pattern.
+
+QQQ If you left off at this sentence, you can quickly reopen this file, and start where you left off.
+
+Additionally, we may enter in READ-ONLY mode:
+$ vim -R sampleFile
+Or we can simply type:
+$ view file
+
+We will be able to write into this file, but we won't get too far when trying to save it.
+To override READ-ONLY mode, type ":w!"

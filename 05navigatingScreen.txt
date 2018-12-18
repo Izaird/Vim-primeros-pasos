@@ -1,0 +1,51 @@
+05. Navigating screen: H, L, M, ctrl+e, ctrl+y
+---------------
+
+Great progress! Your navigational skills are getting as good as a GPS system! :-) 
+
+Let's look navigating through your screen. 
+
+Can I jump to the top of my screen instantly?
+How about to the bottom?
+...Or the middle?
+
+Yes! Yes, we can! 
+
+To navigate to the top of the screen
+H - to the top of the screen
+    4H moves 4 lines below the top
+L - to the bottom of the screen
+    3L moves 3 lines above the last line
+M - to midscreen
+
+Let's just extend 
+this file length
+so you can have
+more 
+space.
+
+Now how about scrolling along the screen?
+
+Use:
+ctrl+e - move the screen one line up
+ctrl+y - move the screen one line down 
+
+Don't forget the review questions on the bottom!
+
+
+
+
+Review Questions:
+1) Navigate through the following uppercase letters:
+    Hello my name is Bobby.
+  I don't know how to use white space properly.
+     So sometimes I use four spaces, sometimes two,
+         It really just depends on my mood.
+2) Navigate from the beginning to the end of each sentence above.
+
+
+
+
+Answers:
+1) Use "-" and the [return] key
+2) Use "^" and "$"

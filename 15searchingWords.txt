@@ -1,0 +1,44 @@
+15. Searching words: / (forward slash), ? (question mark), n, N, #, *
+---------------
+
+We're almost done!
+
+To search the entire file of words, use:
+/ - to start the search, and to go to next
+? - to go to previous
+n - advance forward
+N - advance backwards
+
+We can use this to search a long file for a variable name or any words.
+
+To move to the next occurence of the word that your cursor is under, use:
+* - move to the next occurence
+# - move to the previous occurence
+
+Put your cursor over the move word, and hop over to the previously occuring command. 
+
+
+Review Questions:
+1) How would you find all occurring o's in this line?
+2) What key repeaets a given find command?
+
+
+
+
+
+Solution:
+1) "fo" if you're finding ahead, "Fo" if you're finding behind.
+2) ";"
+
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+!~!                         !~!
+!~!    CONGRATULATIONS!!!   !~!
+!~!    You have completed   !~!
+!~!       this course!      !~!
+!~!                         !~!
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+
+Remember to practice daily to improve!
+

@@ -1,0 +1,35 @@
+14. Searching characters: f, F, t, T, ; (semicolon), , (comma)
+---------------
+
+We can quickly navigate a line by searching characters.
+
+We can do this using the find and til keys:
+f - to the first character ahead
+    "fa" moves cursor to "a" ahead
+F - to the first character behind
+    "Fa" moves to the first "a" behind
+t - up to the first character ahead 
+T - up to the first character behind 
+
+The difference between the "f" and "t" is that one moves up to the letter, and the other moves directly on top of the letter.
+
+Try searching for any letter in any line in this file. 
+
+Since it can get cumbersome if we have multiple occurences before our desired destination, we can use the repeat commands:
+; (semicolon) - repeat the command
+, (comma) - reverse the command; search backwards of what you started with
+
+Try getting to the last "e" character in this sentence. Now try going back to the first "e."
+
+Review Questions:
+1) What is the fastest way to copy a line? 
+2) How do you paste above your current line?
+
+
+
+
+
+Solutions:
+1) "yy"
+2) "P"
+

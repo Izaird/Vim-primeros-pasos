@@ -1,0 +1,24 @@
+Curriculum.txt
+--------------
+
+Table of Contents:
+01. Navigating controls: h, j, k, l, ESC, [0-9]
+02. Navigating words: web, WEB
+03. Navigating lines: $, 0, ^, g_, -, + 
+04. Navigating sentences and paragraphs: {, } (braces), (, ) (parantheses)
+05. Navigating screen: H, L, M, ctrl+e, ctrl+y
+06. Navigating large files: gg, G, ctrl+b, ctrl+f, ctrl+d, ctrl+u, z
+
+07. Inserting and appending: i, a, I, A
+08. Inserting opening and joining lines: o, O, J
+
+09. Undo and redo: u, U, ctrl+r
+10. Replacing text: r, R, ~(tilde), c, C
+
+11. Deleting: x, X, d, . (period)
+
+12. Cutting and pasting: d, p, P
+13. Copying and pasting: y, Y
+
+14. Searching characters: f, F, t, T, ; (semicolon), , (comma)
+15. Searching words: / (forwards slash), ? (question mark), n, N, #, * 

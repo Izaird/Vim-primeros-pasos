@@ -1,0 +1,71 @@
+06. Navigating large files: gg, G, ctrl+b, ctrl+f, ctrl+d, ctrl+u, z
+---------------
+
+Try not to be overwhelmed by this filesize - it's just good ol' Lorem Ipsum. 
+
+See the "@" symbols at the bottom of your terminal? They symbolize that your lines longer than the terminal length/width.
+
+Let's now learn how to navigate large files.
+
+For quick movement in large files:
+gg - move to the beginning of file
+G - move to the end of file
+    5G moves to the 5th line
+
+For scrolling, we use the "ctrl" key:
+ctrl+f - page down
+ctrl+b - page up
+ctrl+d - half a page down
+ctrl+u - half a page up
+
+We can also reposition our screen with the "z" key:
+z[return] - Move current line to the top of screen
+z. - move current line to center of screen
+z- - move current line to bottom of screen
+
+*** 1) Mouse over HERE and hit "z[return]"! ***
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Teneo, inquit, finem illi videri nihil dolere. Mihi enim satis est, ipsis non satis. Non ego tecum iam ita iocabor, ut isdem his de rebus, cum L. Ego vero isti, inquam, permitto. Duo Reges: constructio interrete. Faceres tu quidem, Torquate, haec omnia; Et quidem saepe quaerimus verbum Latinum par Graeco et quod idem valeat;
+
+Invidiosum nomen est, infame, suspectum. Aliter enim nosmet ipsos nosse non possumus. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Nihil enim hoc differt. Illa videamus, quae a te de amicitia dicta sunt. Quis non odit sordidos, vanos, leves, futtiles?
+
+*** 2) Now mouse over HERE and try "z."! ***
+*** 3) Now mouse HERE and press "G"! ***
+
+Pauca mutat vel plura sane; Legimus tamen Diogenem, Antipatrum, Mnesarchum, Panaetium, multos alios in primisque familiarem nostrum Posidonium. Uterque enim summo bono fruitur, id est voluptate. Istam voluptatem perpetuam quis potest praestare sapienti? Quacumque enim ingredimur, in aliqua historia vestigium ponimus. Quis est tam dissimile homini. Nonne videmus quanta perturbatio rerum omnium consequatur, quanta confusio? Ergo et avarus erit, sed finite, et adulter, verum habebit modum, et luxuriosus eodem modo. Nihilne est in his rebus, quod dignum libero aut indignum esse ducamus? Ita cum ea volunt retinere, quae superiori sententiae conveniunt, in Aristonem incidunt;
+
+Pauca mutat vel plura sane; Legimus tamen Diogenem, Antipatrum, Mnesarchum, Panaetium, multos alios in primisque familiarem nostrum Posidonium. Uterque enim summo bono fruitur, id est voluptate. Istam voluptatem perpetuam quis potest praestare sapienti? Quacumque enim ingredimur, in aliqua historia vestigium ponimus. Quis est tam dissimile homini. Nonne videmus quanta perturbatio rerum omnium consequatur, quanta confusio? Ergo et avarus erit, sed finite, et adulter, verum habebit modum, et luxuriosus eodem modo. Nihilne est in his rebus, quod dignum libero aut indignum esse ducamus? Ita cum ea volunt retinere, quae superiori sententiae conveniunt, in Aristonem incidunt;
+
+Nos cum te, M. Sin laboramus, quis est, qui alienae modum statuat industriae? Hanc ergo intuens debet institutum illud quasi signum absolvere. Occultum facinus esse potuerit, gaudebit; Sed fac ista esse non inportuna; Sapiens autem semper beatus est et est aliquando in dolore; Satisne vobis videor pro meo iure in vestris auribus commentatus?
+
+Hoc Hieronymus summum bonum esse dixit. Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Ergo, inquit, tibi Q. Quid enim me prohiberet Epicureum esse, si probarem, quae ille diceret? Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Egone non intellego, quid sit don Graece, Latine voluptas? Nescio quo modo praetervolavit oratio. Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Sed quid attinet de rebus tam apertis plura requirere?
+
+Nos cum te, M. Sin laboramus, quis est, qui alienae modum statuat industriae? Hanc ergo intuens debet institutum illud quasi signum absolvere. Occultum facinus esse potuerit, gaudebit; Sed fac ista esse non inportuna; Sapiens autem semper beatus est et est aliquando in dolore; Satisne vobis videor pro meo iure in vestris auribus commentatus?
+
+Hoc Hieronymus summum bonum esse dixit. Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Ergo, inquit, tibi Q. Quid enim me prohiberet Epicureum esse, si probarem, quae ille diceret? Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Egone non intellego, quid sit don Graece, Latine voluptas? Nescio quo modo praetervolavit oratio. Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Sed quid attinet de rebus tam apertis plura requirere?
+
+*** 4) Mouse over HERE and try "z-"! ***
+
+Congratulations! 
+
+What? Your baby compass is evolving!
+
+...
+...
+...
+
+Your compass has evolved into a GPS system!
+
+In the next tutorial, we'll learn about INSERT mode!
+
+Review Question:
+1) Place your cursor to the middle of this screen. 
+2) Scroll up/down one line at a time. 
+
+
+
+
+
+Solutions: 
+1) "M"
+2) ctrl+y, ctrl+e

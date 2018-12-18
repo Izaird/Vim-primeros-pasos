@@ -1,0 +1,53 @@
+03. Navigating lines: $, 0, ^, g_, -, +
+---------------
+
+Ready to double your navigational efficiency?
+We can learn how to navigate through lines!
+
+Use the following keys to move to:
+$ - end of line
+0 - beginning of line
+
+Notice that some lines are really long, and thus wrap around.
+To explicitly see which lines wrap around, type ":set nu".
+We'll talk about more of the ":" commands in a future playlist.
+
+Suppose we have this really long run-on sentence that should have ended long before the trailing period that I will place in a few seconds like so right now. 
+
+In the case where the line begins with with white space, use:
+^ - first non-white space at the beginning of line
+g_ - first non-white space at end of line
+
+# Suppose now we are editing a simple python code
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-2) + fib(n-1)
+
+You may also navigate through lines with indentations with the - and + keys
+
+- - moves up to the first non-whitespace character
++ - moves down to the first non-whitespace character
+
+Notice that for "+" you have to press shift, then the "=" sign. 
+In Vim terms, that's just too much work. 
+What we can use instead is the [return] key. 
+
+Try navigating
+    through this
+  tricky
+       paragraph!
+
+Review Questions:
+1) NavigatE Through This Line HittinG Only The CapitalizeD letteR.
+2) How would you ignore punctuations while navigating through words?
+
+
+
+
+
+Solutions:
+1) (starting with the cursor on the 1) Wewwwwewwwee 
+2) Use the upper-case counterparts - WEB.
+
+ 
