@@ -23,12 +23,12 @@ and you want to insert an adjective before "text".
 // Find the two error in this java code
 x = 0;
 if (x = 0)
-  System.out.println("I love Vim.")
+  System.out.println("I love Vim.");
 
 # Or python if you want
 L = ["vim", "is", "so", "!"]
 for n in L
-  rint(n)
+  print(n)
 
 BTW or LOLCODE...
 HAI 1.2
